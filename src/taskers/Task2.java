@@ -40,6 +40,7 @@ public class Task2 extends Thread {
             }
             
             if (exit) {
+                doNotify("Task2 stopped.");
                 return;
             }
         }

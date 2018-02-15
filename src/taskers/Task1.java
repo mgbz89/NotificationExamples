@@ -38,6 +38,7 @@ public class Task1 extends Thread {
             }
             
             if (exit) {
+                doNotify("Task1 stopped.");
                 return;
             }
         }
