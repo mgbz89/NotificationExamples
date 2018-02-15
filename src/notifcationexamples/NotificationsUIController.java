@@ -73,10 +73,6 @@ public class NotificationsUIController implements Initializable, Notifiable {
             task1 = null;
             task1Button.setText("Start Task 1");
         }
-        if (message.equals("Task3 done.")  || message.equals("Task3 stopped.")) {
-            task3 = null;
-            task3Button.setText("Start Task 3");
-        }
         textArea.appendText(message + "\n");
     }
     
